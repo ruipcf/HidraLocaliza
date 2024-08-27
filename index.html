@@ -6,64 +6,111 @@
     <title>HidraLocaliza Security Policy</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
             color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
         h1 {
             color: #2c3e50;
             text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.5em;
         }
         h2 {
             color: #34495e;
             margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
         }
         p {
             margin-bottom: 15px;
+            font-size: 1.1em;
+            color: #555;
+        }
+        ul {
+            margin-left: 20px;
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+            list-style-type: disc;
         }
         .updated {
             font-style: italic;
             text-align: center;
             margin-bottom: 20px;
+            color: #7f8c8d;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .contact a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            .container {
+                padding: 15px;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>HidraLocaliza Security Policy</h1>
-    <p class="updated"><strong>Last updated:</strong> [Date]</p>
+    <div class="container">
+        <h1>HidraLocaliza Security Policy</h1>
+        <p class="updated"><strong>Last updated:</strong> [Date]</p>
 
-    <h2>1. Information Collected</h2>
-    <p>The HidraLocaliza app collects and uses the following information:</p>
-    <ul>
-        <li><strong>Location Data:</strong> The app uses your device's location services to provide real-time information on nearby points of interest relevant to firefighting and rescue operations. This data is only used while the app is active and is not stored or logged.</li>
-        <li><strong>Internet Connection:</strong> The app requires access to the internet to retrieve real-time data about active incidents and nearby resources. No personal data is collected or transmitted through this connection.</li>
-    </ul>
+        <h2>1. Information Collected</h2>
+        <p>The HidraLocaliza app collects and uses the following information:</p>
+        <ul>
+            <li><strong>Location Data:</strong> The app uses your device's location services to provide real-time information on nearby points of interest relevant to firefighting and rescue operations. This data is only used while the app is active and is not stored or logged.</li>
+            <li><strong>Internet Connection:</strong> The app requires access to the internet to retrieve real-time data about active incidents and nearby resources. No personal data is collected or transmitted through this connection.</li>
+        </ul>
 
-    <h2>2. Data Usage</h2>
-    <p>HidraLocaliza does not require any login or registration and does not collect any personal information from users. The location data is used solely to enhance the app's functionality by providing relevant, real-time information and is not shared with any third parties.</p>
+        <h2>2. Data Usage</h2>
+        <p>HidraLocaliza does not require any login or registration and does not collect any personal information from users. The location data is used solely to enhance the app's functionality by providing relevant, real-time information and is not shared with any third parties.</p>
 
-    <h2>3. Data Security</h2>
-    <p>We implement the following measures to ensure the security of the data:</p>
-    <ul>
-        <li><strong>Secure Transmission:</strong> All communications between the app and our servers are encrypted to ensure data integrity and confidentiality.</li>
-        <li><strong>No Data Storage:</strong> The app does not store location data or any other sensitive information on the device or on external servers. Data is processed in real-time and discarded after use.</li>
-    </ul>
+        <h2>3. Data Security</h2>
+        <p>We implement the following measures to ensure the security of the data:</p>
+        <ul>
+            <li><strong>Secure Transmission:</strong> All communications between the app and our servers are encrypted to ensure data integrity and confidentiality.</li>
+            <li><strong>No Data Storage:</strong> The app does not store location data or any other sensitive information on the device or on external servers. Data is processed in real-time and discarded after use.</li>
+        </ul>
 
-    <h2>4. Data Sharing</h2>
-    <p>HidraLocaliza does not share user data with any third parties. All data processing happens locally on the user’s device and is not transmitted to external entities.</p>
+        <h2>4. Data Sharing</h2>
+        <p>HidraLocaliza does not share user data with any third parties. All data processing happens locally on the user’s device and is not transmitted to external entities.</p>
 
-    <h2>5. Legal Compliance</h2>
-    <p>HidraLocaliza complies with applicable data protection laws, including GDPR and LGPD. The app only processes the minimal data necessary for its operation and ensures that user privacy is respected.</p>
+        <h2>5. Legal Compliance</h2>
+        <p>HidraLocaliza complies with applicable data protection laws, including GDPR and LGPD. The app only processes the minimal data necessary for its operation and ensures that user privacy is respected.</p>
 
-    <h2>6. Security Updates</h2>
-    <p>We regularly review and update the security of HidraLocaliza to address new threats and vulnerabilities. We recommend that users keep the app updated to benefit from the latest security improvements.</p>
+        <h2>6. Security Updates</h2>
+        <p>We regularly review and update the security of HidraLocaliza to address new threats and vulnerabilities. We recommend that users keep the app updated to benefit from the latest security improvements.</p>
 
-    <h2>7. Incident Response</h2>
-    <p>In the event of a security incident, we will take immediate action to mitigate the impact and notify users and relevant authorities as required.</p>
+        <h2>7. Incident Response</h2>
+        <p>In the event of a security incident, we will take immediate action to mitigate the impact and notify users and relevant authorities as required.</p>
 
-    <h2>8. Contact</h2>
-    <p>If you have any questions or concerns regarding this security policy, please contact us at: [Your Email Address]</p>
-
+        <h2>8. Contact</h2>
+        <p class="contact">If you have any questions or concerns regarding this security policy, please contact us at: <a href="mailto:[Your Email Address]">[Your Email Address]</a></p>
+    </div>
 </body>
 </html>
